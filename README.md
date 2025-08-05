@@ -169,3 +169,4 @@ MIT
 - [2026-03-04 02:27:44] Update dependencies
 - [2025-11-06 02:27:44] Add new features
 - [2025-11-14 02:27:44] Add unit tests
+- [2025-08-06 02:27:44] Improve accessibility
