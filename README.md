@@ -197,3 +197,4 @@ MIT
 - [2025-09-15 02:27:44] Update documentation
 - [2026-01-12 02:27:44] Fix bugs and issues
 - [2026-04-19 02:27:44] Add unit tests
+- [2025-08-22 02:27:44] Refactor code structure
