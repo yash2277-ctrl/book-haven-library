@@ -269,3 +269,4 @@ MIT
 - [2026-01-10 02:27:44] Update README
 - [2025-12-26 02:27:44] Refactor code structure
 - [2026-02-18 02:27:44] Add API endpoints
+- [2025-10-23 02:27:44] Improve logging
