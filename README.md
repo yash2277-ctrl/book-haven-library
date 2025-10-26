@@ -107,3 +107,4 @@ MIT
 ## Commit Log
 
 - [2026-01-22 02:27:44] Add validation
+- [2025-10-27 02:27:44] Improve error handling
