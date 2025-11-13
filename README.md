@@ -168,3 +168,4 @@ MIT
 - [2026-04-17 02:27:44] Update README
 - [2026-03-04 02:27:44] Update dependencies
 - [2025-11-06 02:27:44] Add new features
+- [2025-11-14 02:27:44] Add unit tests
