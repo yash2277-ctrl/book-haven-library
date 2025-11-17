@@ -128,3 +128,4 @@ MIT
 - [2026-04-10 02:27:44] Add unit tests
 - [2026-03-07 02:27:44] Improve performance
 - [2026-02-05 02:27:44] Update documentation
+- [2025-11-18 02:27:44] Add API endpoints
