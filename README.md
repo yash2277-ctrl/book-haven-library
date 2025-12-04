@@ -274,3 +274,4 @@ MIT
 - [2026-08-02 02:27:44] Update dependencies
 - [2026-01-19 02:27:44] Add API endpoints
 - [2025-12-20 02:27:44] Clean up code
+- [2025-12-05 02:27:44] Update documentation
