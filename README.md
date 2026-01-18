@@ -272,3 +272,4 @@ MIT
 - [2025-10-23 02:27:44] Improve logging
 - [2026-06-07 02:27:44] Clean up code
 - [2026-08-02 02:27:44] Update dependencies
+- [2026-01-19 02:27:44] Add API endpoints
