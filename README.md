@@ -118,3 +118,4 @@ MIT
 - [2026-02-21 02:27:44] Improve accessibility
 - [2026-03-22 02:27:44] Add unit tests
 - [2026-06-16 02:27:44] Add API endpoints
+- [2026-02-22 02:27:44] Add validation
