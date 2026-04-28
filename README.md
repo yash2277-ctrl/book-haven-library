@@ -185,3 +185,4 @@ MIT
 - [2025-10-04 02:27:44] Improve logging
 - [2026-07-03 02:27:44] Improve UI/UX
 - [2026-05-21 02:27:44] Improve logging
+- [2026-04-29 02:27:44] Improve accessibility
