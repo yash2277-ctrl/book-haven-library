@@ -147,3 +147,4 @@ MIT
 - [2025-08-29 02:27:44] Add API endpoints
 - [2026-02-13 02:27:44] Add comments
 - [2026-02-11 02:27:44] Improve error handling
+- [2026-05-01 02:27:44] Update README
