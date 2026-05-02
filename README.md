@@ -205,3 +205,4 @@ MIT
 - [2025-11-05 02:27:44] Update documentation
 - [2026-07-05 02:27:44] Improve UI/UX
 - [2025-10-21 02:27:44] Add API endpoints
+- [2026-05-03 02:27:44] Add comments
