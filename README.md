@@ -80,3 +80,5 @@ MIT
 - **2026-05-12**: Update documentation
 
 - **2026-05-19**: Refactor code
+
+- **2026-05-21**: Add new features
