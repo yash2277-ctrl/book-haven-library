@@ -88,3 +88,5 @@ MIT
 - **2026-05-22**: Improve performance
 
 - **2026-05-31**: Update documentation
+
+- **2026-06-03**: Improve performance
