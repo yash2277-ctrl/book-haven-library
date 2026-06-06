@@ -264,3 +264,4 @@ MIT
 - [2026-01-28 02:27:44] Add validation
 - [2026-03-07 02:27:44] Improve UI/UX
 - [2026-07-04 02:27:44] Fix bugs and issues
+- [2026-06-07 02:27:44] Improve error handling
