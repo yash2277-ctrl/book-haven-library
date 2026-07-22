@@ -100,3 +100,5 @@ MIT
 - **2026-07-03**: Refactor code
 
 - **2026-07-04**: Fix bugs
+
+- **2026-07-23**: Update documentation
