@@ -1,0 +1,67 @@
+# Book Haven - Library Management System
+
+A comprehensive library management system for managing books, members, and transactions.
+
+## Features
+
+- Book catalog management
+- Member registration and management
+- Book lending and return system
+- Search and filter functionality
+- Transaction history
+- Due date tracking
+- Fine calculation
+
+## Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express
+- **Database**: MySQL/SQLite
+- **Authentication**: JWT
+
+## Installation
+
+1. Clone the repository
+2. Navigate to the backend directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up the database
+5. Configure environment variables
+6. Run the application:
+   ```bash
+   npm start
+   ```
+
+## Quick Start
+
+Run the application using the provided batch file:
+```bash
+RUN_BOOK_HAVEN.bat
+```
+
+## Environment Variables
+
+Create a `.env` file:
+
+```
+DB_HOST=localhost
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_NAME=library_db
+PORT=3000
+JWT_SECRET=your_secret_key
+```
+
+## Features
+
+- **Book Management**: Add, edit, delete, and search books
+- **Member Management**: Register and manage library members
+- **Lending System**: Issue and return books
+- **Reports**: Generate transaction and inventory reports
+- **Notifications**: Due date reminders
+
+## License
+
+MIT
