@@ -72,3 +72,5 @@ MIT
 - **2026-08-05**: docs: Add troubleshooting section
 
 - **2026-08-05**: chore: Review security practices
+
+- **2026-08-05**: docs: Add troubleshooting section
