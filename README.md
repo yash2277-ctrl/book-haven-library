@@ -65,3 +65,8 @@ JWT_SECRET=your_secret_key
 ## License
 
 MIT
+
+
+## Recent Updates
+
+- **2026-08-05**: docs: Add troubleshooting section
