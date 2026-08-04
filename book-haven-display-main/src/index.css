@@ -1,0 +1,261 @@
+@import "@fontsource/playfair-display/400.css";
+@import "@fontsource/playfair-display/600.css";
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm Library Theme */
+    --background: 40 33% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 40 40% 97%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 40 40% 97%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Deep Navy Primary */
+    --primary: 222 47% 15%;
+    --primary-foreground: 40 33% 98%;
+
+    /* Warm Cream Secondary */
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 222 47% 15%;
+
+    --muted: 35 20% 90%;
+    --muted-foreground: 222 20% 45%;
+
+    /* Sage Accent */
+    --accent: 160 25% 45%;
+    --accent-foreground: 40 33% 98%;
+
+    /* Amber Warning/Due Dates */
+    --warning: 38 92% 50%;
+    --warning-foreground: 222 47% 11%;
+
+    /* Available/Success */
+    --success: 142 70% 40%;
+    --success-foreground: 40 33% 98%;
+
+    /* Unavailable/Destructive */
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 40 33% 98%;
+
+    --border: 35 25% 88%;
+    --input: 35 25% 88%;
+    --ring: 222 47% 15%;
+
+    --radius: 0.75rem;
+
+    /* Custom Library Colors */
+    --book-spine: 222 47% 20%;
+    --book-highlight: 38 92% 55%;
+    --cream: 40 33% 96%;
+    --navy-deep: 222 50% 12%;
+    --sage: 160 25% 50%;
+    --amber-glow: 38 92% 60%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 15%) 0%, hsl(222 47% 25%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(40 40% 99%) 0%, hsl(35 30% 95%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(38 92% 55%) 0%, hsl(32 85% 50%) 100%);
+
+    /* Shadows */
+    --shadow-book: 0 10px 40px -10px hsl(222 47% 15% / 0.2);
+    --shadow-card: 0 4px 20px -4px hsl(222 47% 15% / 0.1);
+    --shadow-hover: 0 20px 50px -15px hsl(222 47% 15% / 0.25);
+
+    /* Sidebar */
+    --sidebar-background: 40 33% 97%;
+    --sidebar-foreground: 222 47% 15%;
+    --sidebar-primary: 222 47% 15%;
+    --sidebar-primary-foreground: 40 33% 98%;
+    --sidebar-accent: 35 30% 92%;
+    --sidebar-accent-foreground: 222 47% 15%;
+    --sidebar-border: 35 25% 88%;
+    --sidebar-ring: 222 47% 15%;
+  }
+
+  .dark {
+    --background: 222 47% 8%;
+    --foreground: 40 33% 95%;
+
+    --card: 222 47% 12%;
+    --card-foreground: 40 33% 95%;
+
+    --popover: 222 47% 12%;
+    --popover-foreground: 40 33% 95%;
+
+    --primary: 40 33% 95%;
+    --primary-foreground: 222 47% 12%;
+
+    --secondary: 222 30% 18%;
+    --secondary-foreground: 40 33% 95%;
+
+    --muted: 222 30% 20%;
+    --muted-foreground: 40 20% 65%;
+
+    --accent: 160 25% 40%;
+    --accent-foreground: 40 33% 95%;
+
+    --warning: 38 92% 55%;
+    --warning-foreground: 222 47% 11%;
+
+    --success: 142 70% 45%;
+    --success-foreground: 222 47% 11%;
+
+    --destructive: 0 62% 45%;
+    --destructive-foreground: 40 33% 95%;
+
+    --border: 222 30% 20%;
+    --input: 222 30% 20%;
+    --ring: 40 33% 80%;
+
+    --book-spine: 40 33% 90%;
+    --book-highlight: 38 92% 60%;
+    --cream: 222 47% 15%;
+    --navy-deep: 40 33% 95%;
+
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 8%) 0%, hsl(222 47% 15%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(222 47% 14%) 0%, hsl(222 47% 10%) 100%);
+
+    --shadow-book: 0 10px 40px -10px hsl(0 0% 0% / 0.4);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
+    --shadow-hover: 0 20px 50px -15px hsl(0 0% 0% / 0.5);
+
+    --sidebar-background: 222 47% 10%;
+    --sidebar-foreground: 40 33% 95%;
+    --sidebar-primary: 40 33% 95%;
+    --sidebar-primary-foreground: 222 47% 12%;
+    --sidebar-accent: 222 30% 18%;
+    --sidebar-accent-foreground: 40 33% 95%;
+    --sidebar-border: 222 30% 20%;
+    --sidebar-ring: 40 33% 80%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-md border border-border/50;
+  }
+
+  .book-shadow {
+    box-shadow: var(--shadow-book);
+  }
+
+  .book-shadow-hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer utilities {
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-shimmer {
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite linear;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px hsl(var(--primary) / 0.2), 0 0 10px hsl(var(--primary) / 0.1);
+    }
+    to {
+      box-shadow: 0 0 15px hsl(var(--primary) / 0.4), 0 0 30px hsl(var(--primary) / 0.2);
+    }
+  }
+}
+
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}
+
+/* Selection highlight */
+::selection {
+  background: hsl(var(--primary) / 0.2);
+  color: hsl(var(--foreground));
+}

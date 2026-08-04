@@ -1,0 +1,23 @@
+# Environment Variables (SENSITIVE!)
+.env
+*.env
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build
+dist/
+build/
+
+# Database (if applicable)
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
